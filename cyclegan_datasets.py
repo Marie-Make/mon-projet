@@ -3,18 +3,17 @@
 """The size of each dataset. Usually it is the maximum number of images from
 each domain."""
 DATASET_TO_SIZES = {
-    'vangogh2photo_train': 6687,
-    'vangogh2photo_test': 1151
+    'WFG2FG_train': 1502
 }
 
 """The image types of each dataset. Currently only supports .jpg or .png"""
 DATASET_TO_IMAGETYPE = {
-    'vangogh2photo_train': '.jpg',
-    'vangogh2photo_test': '.jpg',
+    'WFG2FG_train': '.jpg',
+    
 }
 
 """The path to the output csv file."""
 PATH_TO_CSV = {
-    'vangogh2photo_train': './mon_projet/input/vangogh2photo/vangogh2photo_train.csv',
-    'vangogh2photo_test': './mon_projet/input/vangogh2photo/vangogh2photo_test.csv',
+    'WFG2FG_train': './C:/Users/DELL/Desktop/WFG2FG_train.csv',
+    
 }

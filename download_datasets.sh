@@ -1,7 +1,7 @@
 FILE=$1
 
 if [[ $FILE != "WFG2FG" ]]
-    echo "Available datasets are: "WFG2FG"
+    echo "Available datasets are: WFG2FG"
     exit 1
 
 mkdir ./input

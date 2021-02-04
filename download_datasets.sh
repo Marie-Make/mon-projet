@@ -7,5 +7,5 @@ fi
 mkdir ./input
 URL=https://drive.google.com/drive/folders/1o1NTqDWJf2m937nuzTAw50dgILpUbTGb?usp=sharing
 TARGET_DIR=./input/$FILE/
-wget -N $URL -O $_FILE
+wget --O $URL -O $_FILE
 mkdir $TARGET_DIR

@@ -5,10 +5,4 @@ if [[ $FILE != "WFG2FG" ]]; then
     exit 1
 fi
 mkdir ./input
-URL=https://drive.google.com/drive/my-drive/WFG2FG.rar
-ZIP_FILE=./input/$FILE.rar
-TARGET_DIR=./input/$FILE/
-wget -N $URL -O $ZIP_FILE
-mkdir $TARGET_DIR
-unzip $ZIP_FILE -d ./input/
-rm $ZIP_FILE
+URL=https://drive.google.com/drive/folders/1o1NTqDWJf2m937nuzTAw50dgILpUbTGb?usp=sharing

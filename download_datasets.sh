@@ -1,9 +1,9 @@
 FILE=$1
 
-if [[ $FILE != "WFG2FG" ]]
-    echo "Available datasets are: WFG2FG"
+if [[ $FILE != "WFG2FG" ]]; then
+    echo "Available datasets are: WFG2FG"  
     exit 1
-
+fi
 mkdir ./input
 URL=https://drive.google.com/drive/my-drive/WFG2FG.rar
 ZIP_FILE=./input/$FILE.rar

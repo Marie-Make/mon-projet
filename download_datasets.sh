@@ -5,7 +5,7 @@ if [[ $FILE != "WFG2FG" ]]; then
     exit 1
 fi
 mkdir ./input
-URL=/home/pdiene/Téléchargements/WFG2FG
+URL=/home/pdiene/Téléchargements/WFG2FG.rar
 ZIP_FILE=./input/$FILE.rar
 TARGET_DIR=./input/$FILE/
 wget -N $URL -O $ZIP_FILE

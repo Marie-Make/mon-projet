@@ -5,7 +5,7 @@ if [[ $FILE != "WFG2FG" ]]; then
     exit 1
 fi
 mkdir ./input
-URL=https://drive.google.com/drive/my-drive/WFG2FG.rar
+URL=https://drive.google.com/drive/my-drive/WFG2FG.zip
 ZIP_FILE=./input/$FILE.rar
 TARGET_DIR=./input/$FILE/
 wget -N $URL -O $ZIP_FILE

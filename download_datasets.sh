@@ -5,7 +5,7 @@ if [[ $FILE != "WFG2FG" ]]; then
     exit 1
 fi
 mkdir ./input
-URL=https://drive.google.com/drive/folders/1QSRwFX908PG9YI2cut-yEBbBn7VhrCUR
+URL=./home/pdiene/Téléchargements
 ZIP_FILE=./input/$FILE.zip
 TARGET_DIR=./input/$FILE/
 wget -N $URL -O $ZIP_FILE

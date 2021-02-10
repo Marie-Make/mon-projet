@@ -34,16 +34,16 @@ def create_list(foldername, fulldir=True, suffix=".jpg"):
 @click.command()
 @click.option('--image_path_a',
               type=click.STRING,
-              default='./input/horse2zebra/trainA',
+              default='./input/WFG2FG/trainA',
               help='The path to the images from domain_a.')
 @click.option('--image_path_b',
               type=click.STRING,
-              default='./input/horse2zebra/trainB',
+              default='./input/WFG2FG/trainB',
               help='The path to the images from domain_b.')
 @click.option('--dataset_name',
               type=click.STRING,
-              default='horse2zebra_train',
-              help='The name of the dataset in cyclegan_dataset.')
+              default='WFG2FG_train',
+              help='The name of the dataset in cyclegan_datasets.')
 @click.option('--do_shuffle',
               type=click.BOOL,
               default=False,

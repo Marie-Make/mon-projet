@@ -1,6 +1,6 @@
 FILE=$1
 
-if [[ $FILE != "trainA" $FILE != "trainB" $FILE != "WFG2FG_train" ]]; then
+if [[ $FILE != "trainA" && $FILE != "trainB" && $FILE != "WFG2FG_train" ]]; then
     echo "Available datasets are: WFG2FG"  
     exit 1
 fi

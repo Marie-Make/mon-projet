@@ -5,7 +5,7 @@ if [[ $FILE != "trainA" $FILE != "trainB" $FILE != "WFG2FG_train" ]]; then
     exit 1
 fi
 mkdir ./input
-URL=https://github.com/Marie-Make/datas
+URL=https://github.com/Marie-Make/datas/$FILE.zip
 ZIP_FILE=./input/$FILE.zip
 TARGET_DIR=./input/$FILE/
 wget -N $URL -O $ZIP_FILE

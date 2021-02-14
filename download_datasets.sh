@@ -1,11 +1,11 @@
 FILE=$1
 
-if [[ $FILE != "WFG2FG" ]]; then
+if [[ $FILE != "trainA" $FILE != "trainB" $FILE != "WFG2FG_train" ]]; then
     echo "Available datasets are: WFG2FG"  
     exit 1
 fi
 mkdir ./input
-URL=https://drive.google.com/drive/my-drive/$FILE.zip
+URL=https://github.com/Marie-Make/datas
 ZIP_FILE=./input/$FILE.zip
 TARGET_DIR=./input/$FILE/
 wget -N $URL -O $ZIP_FILE

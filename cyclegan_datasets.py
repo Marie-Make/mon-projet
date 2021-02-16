@@ -14,6 +14,6 @@ DATASET_TO_IMAGETYPE = {
 
 """The path to the output csv file."""
 PATH_TO_CSV = {
-    'WFG2FG_train': './C:/Users/DELL/Desktop/WFG2FG_train.csv',
+    'WFG2FG_train': './mon-projet/input/WFG2FG/WFG2FG_train.csv',
     
 }
